@@ -8,6 +8,7 @@ import sys
 import subprocess
 
 def has_rocket(lines: str) -> bool:
+    ''' confirms that a message contains a rocket '''
     return '🚀' in lines
 
 if __name__ == '__main__':
